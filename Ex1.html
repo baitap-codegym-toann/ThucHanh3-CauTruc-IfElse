@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi!</title>
+</head>
+<body>
+<div style="text-align: center;font-size: 400px;">
+    <button type="button" onclick="refresh()" style="font-size: 60px;width: 300px;height: 100px">again?</button>
+</div>
+<script>
+    let input = prompt('What is the \"official\" name of JavaScript?', '');
+    if (input === 'ECMAScript') {
+        alert('Right!');
+    } else {
+        alert("You don't know? ECMAScript!");
+    }
+
+    function refresh() {
+        location.reload();
+    }
+</script>
+</body>
+</html>
